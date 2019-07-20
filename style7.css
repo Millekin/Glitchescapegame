@@ -1,0 +1,53 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  body {
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    margin: 0px;
+    font-size: 32px;
+    background-image: ("https://cdn.glitch.com/6b66e959-3216-4ffc-9c3f-66f1ebb45308%2Fmap.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  header {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background-color:#7FFFD4;
+      height: 100px;
+  }
+  .group{
+    font-family: 'Akronim';
+    color:	#00008B;
+    font-size: 30px;
+  }
+  
+  .logo{
+      width: 90px;
+      height: 95px;
+      margin-top: 5px;
+  }
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+}
+.desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    flex: 1 0 calc(33.333% - 20px);
+
+}
+
+.desc * {
+    margin: 10px;
+}
+
+img {
+    flex: 1 0 calc(33.333% - 50px);
+    width: 70px;
+    height: 200px;
+}

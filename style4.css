@@ -1,0 +1,86 @@
+/* CSS files add styling rules to your content */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color:#7FFFD4;
+  height: 100px;
+  opacity: 0.5;
+}
+header:hover{
+  opacity: 0.6;}
+.logo {
+   width: 130px;
+   height: 95px;
+   margin-top: 5px;}
+p {
+  color: blue;
+  font-size: 30px;
+  text-align: center;
+  margin: 100px;
+}  h2{
+  color: red;
+  font-size: 40px;
+  text-align: center;
+}
+h3{
+  text-shadow:2px 5px 5px green;
+}
+.neovaii {
+  diplay: flex;
+  flex-direction: column;
+  margin: 50px 0px 0px 20px;
+  padding: 0px 10px;
+  border: red 10px groove;
+}
+.neovaii li {
+  border: 5px seagreen inset;
+  color: white;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-size : 30px;
+}
+.un {
+  background: brown;
+  border-top: 10px linen groove;
+  border-right: 10px red groove;
+  border-left: 10px red groove;
+  border-bottom: 2px blue solid;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0;
+  border-radius:10px;
+}
+main {
+  display: flex;
+}
+#in {
+  display: flex;
+  text-decoration: none;
+  margin:0;
+  background-size:auto;
+  overflow:auto;
+  word-wrap:auto;
+  text-underline: none;
+  
+}
+li {
+  border: 3px yellow solid;
+  border-radius: 40px;
+  padding: 10px;
+  color: #6A00EB;
+  text-shadow: 1px 1px black;
+}
+body {margin:0;
+ background: center black url('https://www.lebigdata.fr/wp-content/uploads/2019/03/hacker-dark-web-round-4.jpeg') no-repeat;}
+footer {
+  margin-top:200px; 
+}
+body:focus {
+  background: white;
+}

@@ -1,0 +1,271 @@
+/* CSS files add styling rules to your content */
+
+/*
+* Stylesheet
+*/
+
+/* Main elements */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Trebuchet MS";
+  color: white;
+  background: black;
+  border: 0;
+}
+h1 {
+  margin-top: 50;
+  color: #d12025;
+  font-size: 3em;
+  font-family: 'Oswald', sans-serif;
+}
+h2 {
+  font-size: 2em;
+  font-family: 'Oswald', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: top;
+}
+
+/* Row */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+}
+.one_col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(88, 23, 23);
+  height: 200px;
+}
+.navbar-brand {
+  padding: 20px 50px;
+  color: #d12025;
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.navbar-nav {
+  display: inline-flex;
+  justify-content: flex-end;
+  margin: 0px;
+  width: 60%;
+  list-style-type: none;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+nav ul a {
+  display: block;
+  padding: 20px 30px;
+  text-decoration: none;
+  color: whitesmoke;
+  border-bottom: 4px solid transparent;
+}
+nav ul a:hover {
+  border-bottom: 4px solid #d12025;
+}
+.account {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  margin-right: 20px;
+}
+.account img {
+  width: 60px;
+  margin: 20px;
+  border-radius: 50%;
+}
+
+/* Jumbotron */
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 70vh;
+  color: white;
+  padding: 10%;
+  box-sizing: border-box;
+  background: url('https://www.geogroup.com/userfiles/f69a0cc7-e501-4dae-a9aa-520d7f1fa82c.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.jumbotron h1 {
+  color: white;
+}
+
+/* Display tv-shows images */
+section {
+  position: relative;
+  width: 20%;
+}
+
+.description {
+  padding: 0 10px;
+  height: 110px;
+  border: 2px solid #222;
+  margin: 0 5px 7px;
+  box-sizing: border-box;
+  color: #999;
+}
+
+.description span {
+  color: white;
+}
+
+.description .tag {
+  color: white;
+  font-size: 1.2rem;
+  padding: 2% 5%;
+  border-radius: 3px;
+  top: 5px;
+  left: 5px;
+  position: absolute;
+}
+
+.serie {
+  background: #c1342f;
+}
+
+.movie {
+  background: #2161c6;
+}
+
+/* Search form */
+.search {
+  padding: 10px 15px;
+  margin-right: 10px;
+  font-size: 2em;
+  border: 0;
+  border-radius: 10px;
+}
+.search:focus {
+  outline-width: 0;
+}
+.search-row {
+  border-top: 4px solid #d12025;
+}
+form {
+  width: 60%;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.button {
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+  font-size: 1.5em;
+  border-radius: 10px;
+  opacity: 0.5;
+  border: 1px solid black;
+}
+.button:hover {
+  background: rgba(0,0,0,1);
+}
+
+/* Results of the search */
+.show-card {
+  width: 80%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+.show-card img {
+  width: 20%;
+}
+.show-card aside {
+  width: 80%;
+  padding: 10px 20px;
+  background: #262525;
+}
+
+/* Video popup */
+#video-over {
+  display: none;
+}
+.overlay {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+}
+
+/* Responsive part */
+@media (max-width: 700px) {
+  section {
+    width: 50%;
+  }
+  .navbar-nav {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .account {
+    display: none;
+  }
+  nav {
+    width: 100%;
+  }
+  .navbar-brand {
+    width: 100%;
+    text-align: center;
+  }
+}
+footer {
+  font-size: 52px;
+  text-align: center;
+  padding: 20px 0;
+}
+p {
+  color: red;
+  text-shadow:1px 1px black;
+}
+/* Remix button */
+.details-bar.cleanslate {
+ display: none !important;
+}
+
+#shows_pictures img:hover {
+  animation: rotate_X 1s;
+}
+
+@keyframes rotate_X {
+  0% {transform: rotate(0deg);}
+  100% {
+    transform: rotateX(360deg);
+  }
+}

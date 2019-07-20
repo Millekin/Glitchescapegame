@@ -1,0 +1,30 @@
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
+  background-position: flex-end;
+  background: url(https://cdn.glitch.com/6b66e959-3216-4ffc-9c3f-66f1ebb45308%2Fthumbnails%2F6b66e959-3216-4ffc-9c3f-66f1ebb45308_thumbnails_enigppier.png?1563543414068);
+  font-size: 40px;
+  background-size: cover;
+}
+
+h1 {
+  color: Teal;
+  font-size: 25px;
+  texte-align: center;
+  text-decoration: underline;
+}
+
+footer {
+  color: black;
+  font-size: 25px;
+  text-align: center; 
+}
+p {
+  text-align: center;
+  color: teal;
+  font-size: 20px;
+}

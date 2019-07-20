@@ -1,0 +1,9 @@
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 0;
+  background:url("http://www.brainfacts.org/-/media/Brainfacts2/Thinking-Sensing-and-Behaving/Thinking-and-Awareness/Article-Images/Hallucinations.png");
+  font-size: 32px;
+  background-size: cover;}
+button {background-color: white;
+  color: white;
+border-radius: 50px}
